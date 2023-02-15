@@ -1,0 +1,6 @@
+FOO
+BAR
+(1 . 2)
+BAZ
+A
+(B C)

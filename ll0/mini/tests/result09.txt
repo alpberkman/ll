@@ -1,0 +1,9 @@
+X
+(A B C)
+X
+FOO
+BAR
+(QUOTE NIL)
+SQUARE
+9
+

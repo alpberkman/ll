@@ -1,0 +1,4 @@
+42
+(FOO BAR)
+(S (T . U) V W)
+NIL

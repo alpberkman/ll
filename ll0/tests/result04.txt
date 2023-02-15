@@ -1,0 +1,6 @@
+Symbol not bound
+FOO
+FOO
+42
+FOO
+BAR

@@ -1,0 +1,8 @@
+((lambda (a . b) a) 1 2 3)
+((lambda (a . b) b) 1 2 3)
+((lambda args args) 1 2 3)
+(define (sum-list xs) (if xs (+ (car xs) (sum-list (cdr xs))) 0))
+(sum-list '(1 2 3))
+(define (add . xs) (sum-list xs))
+(add 1 2 3)
+(add 1 (- 4 2) (/ 9 3))

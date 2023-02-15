@@ -1,0 +1,7 @@
+(if t 3 4)
+(if nil 3 4)
+(if 0 t nil)
+(= 3 3)
+(< 11 4)
+(define fact (lambda (x) (if (= x 0) 1 (* x (fact (- x 1))))))
+(fact 10)

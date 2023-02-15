@@ -1,0 +1,9 @@
+A new parser
+
+a read function
+
+(define repl (lambda () (print (eval (read)))))
+
+maybe use other paranthesis for some stuff???
+
+A proper name: misc -> MIni SCheme

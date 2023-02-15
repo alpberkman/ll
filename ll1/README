@@ -1,0 +1,8 @@
+Minimal lisp interpreter ny following Robert van Engelen's tutorial:
+
+https://github.com/Robert-van-Engelen/tinylisp
+
+
+The biggest difference is that my version doesn't use NaN boxing as i dont intend on using it with floats.
+Also some more extra basic functions.
+

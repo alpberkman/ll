@@ -1,0 +1,6 @@
+(define foo 1)
+(define bar 2)
+(cons foo bar)
+(define baz (quote (a b c)))
+(car baz)
+(cdr baz)

@@ -1,0 +1,4 @@
+IGNORE
+FOO
+Symbol not bound
+
