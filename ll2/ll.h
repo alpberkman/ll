@@ -56,15 +56,18 @@ val equ(exp x, exp y);
 val not(exp x);
 
 
+#define mbox(V, T) ((exp) {.v = (V), .t = (T)})
 exp box(val v, tag t) {
     exp e = {.v = v, .t = t};
     return e;
 }
 
+#define mequ(X, Y) ((X).v == (Y).v && (X).t == (Y).t)
 val equ(exp x, exp y) {
     return x.v == y.v && x.t == y.t;
 }
 
+#define mnot(X) ((X).t == NIL)
 val not(exp x) {
     return x.t == NIL;
 }
