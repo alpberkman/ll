@@ -4,8 +4,8 @@ Tutorial: https://www.lwh.jp/lisp/index.html
 Original repository: https://github.com/lwhjp/building-lisp/
 
 
-Implements first 13 steps although step 13 doesn't work correctly
+Implements first 10 steps
 
 
-No gc
+No gc or macros
 

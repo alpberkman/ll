@@ -1,0 +1,10 @@
+Lisp/Scheme interpreters.
+
+ll0/ll0-mini:
+-Made by following Leo Uino's tutorial on https://www.lwh.jp/lisp/index.html
+-Original implementation on https://github.com/lwhjp/building-lisp/
+-Minimal version implemented as a single header in circa 600 sloc
+-Full version implemented as a header and C file pair in circa 700 sloc
+-The full version also supports macros
+-Both versions have some tests
+

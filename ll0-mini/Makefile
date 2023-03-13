@@ -1,0 +1,21 @@
+
+CC ?= gcc
+CFLAGS ?= -Wall -Wextra -O2 -ansi
+DFLAGS ?= -g
+SFLAGS ?= -Os -s
+
+.PHONY: ll
+
+all: ll
+
+ll: main.c
+	$(CC) $(CFLAGS) $(SFLAGS) -o $@ $^
+
+clean:
+	rm -rf *.o *.optimized *.out debug ll
+
+test: ll
+	cd tests && ./test.sh
+
+run: ll
+	./ll

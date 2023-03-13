@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd tests
+
 for tf in *.c
 do
 	rf=${tf/test/result}; rf=${rf/\.c/\.txt}
